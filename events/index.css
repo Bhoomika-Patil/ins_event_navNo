@@ -1,0 +1,328 @@
+*,html{
+        margin:0;
+        }
+body{
+  background: url('./assets/bg.svg'),url('./assets/footer.svg'),linear-gradient(to bottom right,#12051A, #03002B);
+      /* background-image:,linear-gradient(to bottom right,#12051A, #03002B); */
+    background-attachment: fixed;
+color: white;
+ background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.fredoka-hom {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* @media(min-width:800px){ */
+.icon{
+  display: none;
+}
+.navigation{
+    z-index: 100;
+position: fixed;
+top: 1.5em;
+}
+
+.nav-container{
+    padding:0%;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    gap:8vw;
+    text-align: center;
+    align-items: center;
+    font-family: 'Fredoka';
+    font-weight: 600;
+    height: 18vh;
+    width: 100vw;
+    font-size: x-large;
+    margin-top: 0%;
+    backdrop-filter: blur(2px) saturate(180%);
+    -webkit-backdrop-filter: blur(2px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.62);
+    background-color:rgba(28, 19, 52, 0.5); 
+    clip-path: polygon(20% 0%, 80% 0%, 75% 80%, 25% 80% );  
+}
+
+.nav-container>#about,#schedule,#home{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  justify-content: stretch;
+}
+
+.eastern-grp-dance{
+     border:3px solid #f38dac37;
+      backdrop-filter: blur(3px) saturate(200%);
+        -webkit-backdrop-filter: blur(3px) saturate(200%);
+        background-color: #c4c4c410;
+    margin: auto;
+    margin-top:2vh;
+    border-radius: 30px;
+    backdrop-filter: blur(50px);
+    width: 70%;
+    margin-top: 10rem;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.event-info{
+        padding: .1em;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-direction: row;
+}
+.heading{
+    height: 4em;
+}
+.heading>h1{
+    font-size: 2.7rem;
+    font-weight: 550;
+    padding-top: .2em;
+}
+.details{
+  padding-top: .5em;
+    width: 35rem;
+}
+.details>h2{
+    padding: .1em;
+}
+.details>ol,li,h3{
+    padding: 1em;
+}
+.venue-time>h2,p{
+    display: inline;
+    padding-right:  .8em;
+}
+.venue-time>h2{
+    font-size: 1em;
+    padding-left: 1em;
+    padding-right: .1em;
+}
+.rules{
+  padding-top: .8em;
+}
+.image>img{
+    padding: 1em 0em 0em 1em;
+  height: 34em;
+  width: 25em;
+}
+.co-ord{
+    display: flex;
+    padding: .3em;
+}
+.co-ord>h1{
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: .3em 1em .2em 1em;
+}
+.co-ord>p{
+    padding-left: .1em;
+    padding-top: .8em;
+    font-family: 'lato';
+    font-weight: 500;
+}
+h2,h1,h3{
+    font-family: 'Fredoka';
+    font-weight: 500;
+}
+p,li{
+    padding: .12em;
+    font-family: 'lato';
+    font-weight:350;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 8.8em;
+    height: 2em;
+backdrop-filter: blur(3px) saturate(200%);
+        -webkit-backdrop-filter: blur(3px) saturate(200%);
+        border: 4px solid #6535B4;
+        background-color: transparent;
+        color: #EEEBEE;
+        margin: 0rem;
+        font-size: 150%;
+        font-family: 'Fredoka' ;
+        font-weight: 500;
+        border-radius: 15px;
+}
+
+@media(max-width:800px) {
+  body{
+    overflow-x: hidden;
+  }
+  .navigation{
+    position: fixed;
+  }
+  .nav-container{
+    display: grid;
+     grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+    flex-direction: column;
+    gap: 3vw;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem .4rem 0rem .4rem;
+    height: 5rem;
+    clip-path: polygon(20% 0%, 80% 0%, 75% 80%, 25% 80% );  
+  }
+  .anch{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 0%;
+    margin-bottom:1rem ;
+    margin-top: 0%;
+    font-size: .78rem;
+  }
+  .anch>a{
+    font-weight: 100;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+  }
+
+
+  .icon{
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    display:flex;
+    flex-direction: row;
+  }
+  .icon>img{
+    padding-left: 1.5rem;
+    padding-right: 2rem;
+  }
+  .image{
+    padding-top: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .image>img{
+   height: 25rem;
+   width: 18rem;
+  }
+ .eastern-grp-dance{
+  margin-top: 7rem;
+  width: 87%;
+  display: flex;
+  flex-direction: column;
+ } 
+ .event-info{
+  display: flex;
+  flex-direction: column;
+ }
+ .heading{
+  text-align: center;
+ }
+ .heading>h1{
+  padding-left: 1rem;
+  font-size: 2rem;
+ }
+.details{
+  width: 95%;
+}
+.rules>h2{
+  padding-left: 1rem;
+}
+.rules>h3{
+  text-align: center;
+}
+.co-ord{
+    display: flex;
+    padding: .3em;
+}
+.co-ord>h1{
+  width: 50%;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: .8em 0em 0em 0.5em;
+}
+.co-ord>p{
+    padding-top: .6em;
+    font-family: 'lato';
+    font-weight: 300;
+    font-size: 1rem;
+}
+}
